@@ -3,52 +3,152 @@
         {
             "item_id" : "1",
             "group_id": "1",
-            "name" : "shirt",
-            "available_sizes" : "1,2,3",
-            "price" : "75",
-            "image_id" : "shirt1"
+            "name" : "Cotton shirt",
+            "available_sizes" : "XS, S, M , L, XL",
+            "price" : "2499",
+            "image_id" : "cottonshirt"
         },{
             "item_id" : "2",
             "group_id": "1",
-            "name" : "shirt",
-            "available_sizes" : "1,2,3",
-            "price" : "75",
-            "image_id" : "cottonshirt"
+            "name" : "Jeans Super Skinny",
+            "available_sizes" : "29, 30, 31, 32, 33, 34, 36",
+            "price" : "2499",
+            "image_id" : "jeanssuperskinny"
         },{
             "item_id" : "3",
             "group_id": "1",
-            "name" : "shirt",
-            "available_sizes" : "1,2,3",
-            "price" : "75",
-            "image_id" : "jean1"
+            "name" : "Breasted Tee",
+            "available_sizes" : "XS, S, M , L, XL",
+            "price" : "1299",
+            "image_id" : "breastedtee"
         },{
             "item_id" : "4",
             "group_id": "1",
-            "name" : "shirt",
-            "available_sizes" : "1,2,3",
-            "price" : "75",
-            "image_id" : "jacket1"
+            "name" : "Canvas Sneakers",
+            "available_sizes" : "7.5, 8, 9, 9.5, 10.5",
+            "price" : "2999",
+            "image_id" : "canvassneakers"
         },{
             "item_id" : "5",
             "group_id": "1",
-            "name" : "shirt",
-            "available_sizes" : "1,2,3",
-            "price" : "75",
-            "image_id" : "blazer1"
+            "name" : "Bomber Jacket",
+            "available_sizes" : "XS, S, M , L, XL",
+            "price" : "2999",
+            "image_id" : "bomberjacket"
         },{
             "item_id" : "6",
             "group_id": "1",
-            "name" : "shirt",
-            "available_sizes" : "1,2,3",
-            "price" : "75",
-            "image_id" : "belt1"
+            "name" : "Beanie",
+            "available_sizes" : "One size",
+            "price" : "699",
+            "image_id" : "beanie"
         },{
              "item_id" : "7",
              "group_id": "1",
-             "name" : "shirt",
-             "available_sizes" : "1,2,3",
-             "price" : "75",
-             "image_id" : "shoe1"
-         }
+             "name" : "Laptop Case",
+             "available_sizes" : "One size",
+             "price" : "3499",
+             "image_id" : "laptopcase"
+         },
+         {
+             "item_id" : "8",
+             "group_id": "2",
+             "name" : "Knit Jumper",
+             "available_sizes" : "S, M, L, XL",
+             "price" : "2999",
+             "image_id" : "knitjumper"
+         },{
+             "item_id" : "9",
+             "group_id": "2",
+             "name" : "Slim Jeans",
+             "available_sizes" : "29, 20, 31, 32, 33, 34",
+             "price" : "2499",
+             "image_id" : "slimjeans"
+         },{
+             "item_id" : "10",
+             "group_id": "2",
+             "name" : "Breasted Tee",
+             "available_sizes" : "XS, S, M, L, XL",
+             "price" : "1299",
+             "image_id" : "breastedtee2"
+         },{
+             "item_id" : "11",
+             "group_id": "2",
+             "name" : "Padded Jacket",
+             "available_sizes" : "S, M, L, XL",
+             "price" : "3499",
+             "image_id" : "paddedjacket"
+         },{
+             "item_id" : "12",
+             "group_id": "2",
+             "name" : "Denim Shirt",
+             "available_sizes" : "S, M, L, XL",
+             "price" : "2499",
+             "image_id" : "denimshirt"
+         },{
+             "item_id" : "13",
+             "group_id": "2",
+             "name" : "Canvas Sneakers",
+             "available_sizes" : "7.5, 8, 9, 9.5, 10.5",
+             "price" : "2999",
+             "image_id" : "canvassneakers2"
+         },{
+              "item_id" : "14",
+              "group_id": "2",
+              "name" : "Jazzy Socks",
+              "available_sizes" : "6.5, 7, 7.5 ,8 ,8.5 ,9",
+              "price" : "399",
+              "image_id" : "jazzysocks"
+          },
+          {
+              "item_id" : "15",
+              "group_id": "3",
+              "name" : "Wool Jacket",
+              "available_sizes" : "34, 36, 38, 40, 42",
+              "price" : "5999",
+              "image_id" : "wooljacket"
+          },{
+              "item_id" : "16",
+              "group_id": "3",
+              "name" : "Shirt",
+              "available_sizes" : "S, M, L, XL",
+              "price" : "2499",
+              "image_id" : "shirt"
+          },{
+              "item_id" : "17",
+              "group_id": "3",
+              "name" : "Wool Trousers",
+              "available_sizes" : "30, 32, 33, 34, 36",
+              "price" : "2999",
+              "image_id" : "wooltrousers"
+          },{
+              "item_id" : "18",
+              "group_id": "3",
+              "name" : "Merino Jumper",
+              "available_sizes" : "XS, S, M, L",
+              "price" : "2999",
+              "image_id" : "merinojumper"
+          },{
+              "item_id" : "19",
+              "group_id": "3",
+              "name" : "Derby Shoes",
+              "available_sizes" : "7.5, 8, 9, 9.5",
+              "price" : "4999",
+              "image_id" : "derbyshoes"
+          },{
+              "item_id" : "20",
+              "group_id": "3",
+              "name" : "Premium Shirt",
+              "available_sizes" : "S, M, L, XL",
+              "price" : "2999",
+              "image_id" : "premiumshirt"
+          },{
+               "item_id" : "21",
+               "group_id": "3",
+               "name" : "Suit Trousers",
+               "available_sizes" : "30, 32, 33, 34, 36",
+               "price" : "2999",
+               "image_id" : "suittrousers"
+           }
     ]
 }
