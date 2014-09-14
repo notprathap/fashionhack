@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
     public void getScannedItem(View view) {
         // Do something in response to button
     	Intent intent = new Intent(this, ViewItemActivity.class);
-        JSONArray items = this.getItemData("reference"); //should be the reference from scanner
+        JSONArray items = this.getItemData("1"); //should be the reference from scanner
         intent.putExtra("itemData", items.toString());
     	startActivity(intent);
     }
@@ -47,7 +47,12 @@ public class MainActivity extends Activity {
             // Parse the data into jsonobject to get original data in form of json.
             JSONObject jObject = new JSONObject(
                     byteArrayOutputStream.toString());
-            items = jObject.getJSONArray("Items");
+            JSONArray allItems = jObject.getJSONArray("Items");
+            for (int i = 0; i < allItems.length(); i++) {
+                if (allItems.getJSONObject(i).getString("group_id").toString().equals(reference)){
+                    items.put(allItems.getJSONObject(i));
+                }
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
