@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stolen Dance</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_get_scanned_item">Get Scanned Item</string>
+    <string name="title_activity_view_item">ViewItemActivity</string>
+	<string name="tshirt_title">Men\'s White Tee</string>
+</resources>

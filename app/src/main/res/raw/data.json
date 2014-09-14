@@ -1,0 +1,54 @@
+{
+    "Items" : [
+        {
+            "item_id" : "1",
+            "group_id": "1",
+            "name" : "shirt",
+            "available_sizes" : "1,2,3",
+            "price" : "75",
+            "image_id" : "shirt1"
+        },{
+            "item_id" : "2",
+            "group_id": "1",
+            "name" : "shirt",
+            "available_sizes" : "1,2,3",
+            "price" : "75",
+            "image_id" : "cottonshirt"
+        },{
+            "item_id" : "3",
+            "group_id": "1",
+            "name" : "shirt",
+            "available_sizes" : "1,2,3",
+            "price" : "75",
+            "image_id" : "jean1"
+        },{
+            "item_id" : "4",
+            "group_id": "1",
+            "name" : "shirt",
+            "available_sizes" : "1,2,3",
+            "price" : "75",
+            "image_id" : "jacket1"
+        },{
+            "item_id" : "5",
+            "group_id": "1",
+            "name" : "shirt",
+            "available_sizes" : "1,2,3",
+            "price" : "75",
+            "image_id" : "blazer1"
+        },{
+            "item_id" : "6",
+            "group_id": "1",
+            "name" : "shirt",
+            "available_sizes" : "1,2,3",
+            "price" : "75",
+            "image_id" : "belt1"
+        },{
+             "item_id" : "7",
+             "group_id": "1",
+             "name" : "shirt",
+             "available_sizes" : "1,2,3",
+             "price" : "75",
+             "image_id" : "shoe1"
+         }
+    ]
+}
